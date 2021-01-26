@@ -1,0 +1,17 @@
+{
+  "name": "odin-project-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jighdan/odinProject-library.git",
+  "author": "Reinny <reynsth@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "yarn webpack"
+  }
+}

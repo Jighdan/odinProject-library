@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- SEO meta tags -->
+	<meta name="title" content="Jighdan ~ Odin Project: Library">
+	<meta name="description" content="A simple library application.">
+	<meta name="keywords" content="library,book,books,store,web development,html,css,developer,programmer">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="30 days">
+	<meta name="author" content="Reinny Almonte Ramos">
+
+	<!-- Bootstrap styles -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type=image/x-icon" href="favicon.ico">
+</head>
+<body class="min-vh-100 justify-content-center container">
+
+	<header class="row container p-2 max-h-auto">
+		<h1 class="display-4 my-0">The Odin Project: Library</h1>
+		<p class="my-0">Read more about this project <a href="https://github.com/Jighdan/odinProject-library" rel="noopener noreferrer" target="_blank">here</a>.</p>
+	</header>
+
+	<aside class="row mt-2 mb-4 container border rounded">
+		<form class="p-3" id="newBookForm">
+			<div class="row">
+				<section class="mb-3 col-md-6">
+					<label for="title" class="form-label">Title</label>
+					<input type="text" name="title" class="form-control" required autocomplete="off">
+				</section>
+	
+				<section class="mb-3 col-md-4">
+					<label for="author" class="form-label">Author</label>
+					<input type="text" name="author" class="form-control" required>
+				</section>
+
+				<section class="mb-3 col-md-2">
+					<label for="status" class="form-label">Status</label>
+					<select name="status" class="form-select">
+						<option value="true" default>Read</option>
+						<option value="false">Not Read</option>
+					</select>
+				</section>
+			</div>
+
+			<div class="d-grid col-md-6 mx-md-auto">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</form>
+	</aside>
+
+	<main class="row-3 container">
+		<h2>My Books</h2>
+		<div class="table-responsive table-sm">
+			<table class="table" id="libraryContainer"></table>
+		</div>
+	</main>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
