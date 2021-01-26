@@ -26,8 +26,8 @@ You can read more about the observer design pattern [here](https://refactoring.g
 
 ## Usage
 
-()[./examples/form.png]
-()[./examples/book.png]
+[](./examples/form.png)
+[](./examples/book.png)
 
 1. Start by filling the **New Book Form**.
 2. Update a book **status** by clicking on that book **status button**.
