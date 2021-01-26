@@ -2,7 +2,7 @@
 
 ## Summary
 
-A solution to the challenge provided by [The Odin Project's library lesson](https://www.theodinproject.com/lessons/library).
+A solution to the [The Odin Project's library lesson](https://www.theodinproject.com/lessons/library) challenge.
 
 The challenge was to create a web application that could serve as a library, where the user can add and remove books, also update a book status.
 
@@ -25,10 +25,6 @@ You can read more about the observer design pattern [here](https://refactoring.g
 ```
 
 ## Usage
-
-[](./examples/form.png)
-[](./examples/book.png)
-
 1. Start by filling the **New Book Form**.
 2. Update a book **status** by clicking on that book **status button**.
 3. Remove a book from the library by clicking on that book **delete button**
